@@ -1,0 +1,98 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.flex1, .flex2{
+
+}
+
+.total_container {
+    height: 100%;
+    border: 3px solid yellow;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.goals_container {
+    border: 3px solid green;
+    /* position: absolute;
+    top: 0px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.goal_text {
+    border: 3px solid red;
+    /* position: relative;
+    left: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.goal_image {
+    border: 3px solid blue;
+    /* position: relative;
+    right: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.food_container {
+    border: 3px solid purple;
+    /* position: absolute;
+    bottom: 0px; */
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.food_list {
+    border: 3px solid orange;
+    /* position: absolute;
+    right: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.food_image {
+    border: 3px solid black;
+    /* position: absolute;
+    left: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
